@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+    ::selection {
+        background-color: #ffee32;
+        color: #000814;
+    }
+
+    ::-moz-selection {
+        background-color: #ffee32;
+        color: #000814;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Space Grotesk', sans-serif;
+    }
+
+}
