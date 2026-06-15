@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Sajib Ahmed, a modern Creative Web Developer specializing in pixel-perfect interactive digital experiences.">
+  <title>Sajib Ahmed | Web Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo hover-target">SAJIB<span>.</span></a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="active hover-target">Home</a></li>
+        <li><a href="#about" class="hover-target">About</a></li>
+        <li><a href="#work" class="hover-target">Work</a></li>
+        <li><a href="#contact" class="hover-target">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="cta-button hover-target">Start a Project</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-grid">
+        <div class="hero-content">
+
+          <h1 class="hero-title">
+            Sajib Ahmed<br>
+            <span class="outline">Creative</span><br>
+            <span class="gradient">Web Developer</span>
+          </h1>
+          <p class="hero-desc">
+            I build high-performance, clean, and visually refined digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary hover-target">
+              View Works
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn-secondary hover-target">
+              Let's connect
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="image-frame-container hover-target">
+            <div class="image-glow"></div>
+            <div class="image-frame">
+              <img src="headshot.jpeg" alt="Sajib Ahmed Portrait" id="headshot">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="reveal-on-scroll">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-label">I. Profile</span>
+            <h2 class="section-title">Profile</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a frontend developer bridging the gap between clean layout aesthetics and modular coding logic. I
+              build high-performance, accessible, and responsive user interfaces with a strong focus on details.
+            </p>
+            <p>
+              Collaborating with designers and developers, I transform concepts into robust digital products using
+              modern standards, clean spacing, and smooth interactions.
+            </p>
+          </div>
+
+          <div class="skills-container">
+            <div class="skills-list">
+              <div class="skill-chip hover-target">HTML5</div>
+              <div class="skill-chip hover-target">CSS3</div>
+              <div class="skill-chip hover-target">JavaScript ES6+</div>
+              <div class="skill-chip hover-target">React.js</div>
+              <div class="skill-chip hover-target">Node.js</div>
+              <div class="skill-chip hover-target">CSS Grid / Flexbox</div>
+              <div class="skill-chip hover-target">TailwindCSS</div>
+              <div class="skill-chip hover-target">Figma to Code</div>
+              <div class="skill-chip hover-target">Git / GitHub</div>
+              <div class="skill-chip hover-target">Webpack / Vite</div>
+              <div class="skill-chip hover-target">SEO &amp; Performance</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="reveal-on-scroll">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-label">II. Works</span>
+            <h2 class="section-title">Selected Works</h2>
+          </div>
+        </div>
+
+        <div class="work-list">
+          <!-- Work Item 1 -->
+          <a href="#" class="work-item hover-target" data-preview="project_aetheria.png">
+            <span class="work-num">01</span>
+            <div class="work-title-group">
+              <span class="work-name">Aetheria E-Commerce</span>
+              <div class="work-tags">
+                <span>React</span>
+                <span>•</span>
+                <span>Tailwind</span>
+                <span>•</span>
+                <span>Stripe</span>
+              </div>
+            </div>
+            <div class="work-arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Work Item 2 -->
+          <a href="#" class="work-item hover-target" data-preview="project_synapse.png">
+            <span class="work-num">02</span>
+            <div class="work-title-group">
+              <span class="work-name">Synapse Dashboard</span>
+              <div class="work-tags">
+                <span>React</span>
+                <span>•</span>
+                <span>FastAPI</span>
+                <span>•</span>
+                <span>Postgres</span>
+              </div>
+            </div>
+            <div class="work-arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Work Item 3 -->
+          <a href="#" class="work-item hover-target" data-preview="project_luminary.png">
+            <span class="work-num">03</span>
+            <div class="work-title-group">
+              <span class="work-name">Luminary Studio</span>
+              <div class="work-tags">
+                <span>HTML5 / CSS3</span>
+                <span>•</span>
+                <span>GSAP</span>
+                <span>•</span>
+                <span>Canvas</span>
+              </div>
+            </div>
+            <div class="work-arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+
+          <!-- Work Item 4 -->
+          <a href="#" class="work-item hover-target" data-preview="project_vesper.png">
+            <span class="work-num">04</span>
+            <div class="work-title-group">
+              <span class="work-name">Vesper Web3 App</span>
+              <div class="work-tags">
+                <span>Solid.js</span>
+                <span>•</span>
+                <span>Web3</span>
+              </div>
+            </div>
+            <div class="work-arrow">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Floating preview frame that tracks mouse cursor on hover -->
+      <div class="work-preview-container" id="work-preview-container">
+        <img src="" alt="Project Preview" id="work-preview-image">
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal-on-scroll">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <span class="section-label">III. Contact</span>
+            <h2 class="contact-headline">
+              Let's build<br>
+              <span class="gradient-txt">together</span>
+            </h2>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="contact-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-meta">
+                  <h5>Email</h5>
+                  <a href="mailto:sajib.ahmed@example.com" class="hover-target">mdsajib23761170@gmail.com</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="socials-list">
+              <a href="#" class="social-btn hover-target" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </a>
+              <a href="#" class="social-btn hover-target" aria-label="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="#" class="social-btn hover-target" aria-label="Twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                  </path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="form-name" class="form-input hover-target" placeholder=" " required>
+              <label for="form-name" class="form-label">Full Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="email" id="form-email" class="form-input hover-target" placeholder=" " required>
+              <label for="form-email" class="form-label">Email Address</label>
+            </div>
+
+            <div class="form-group">
+              <textarea id="form-message" class="form-input hover-target" placeholder=" " required></textarea>
+              <label for="form-message" class="form-label">Project Details</label>
+            </div>
+
+            <button type="submit" class="form-submit-btn hover-target">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+
+            <!-- Success Overlay inside the form container -->
+            <div class="form-success-overlay" id="form-success">
+              <div class="success-icon-container">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <h3 class="success-title">Message Sent!</h3>
+              <p class="success-message">Thank you for reaching out, Sajib. I will get back to you within 24 hours.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="copyright">
+        &copy; 2026 <span>Sajib Ahmed</span>. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="#home" class="hover-target">Home</a>
+        <a href="#about" class="hover-target">About</a>
+        <a href="#work" class="hover-target">Work</a>
+        <a href="#contact" class="hover-target">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
